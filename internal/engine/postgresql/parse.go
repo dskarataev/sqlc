@@ -10,8 +10,8 @@ import (
 	pg "github.com/lfittl/pg_query_go"
 	nodes "github.com/lfittl/pg_query_go/nodes"
 
-	"github.com/vitthalaa/sqlc/internal/metadata"
-	"github.com/vitthalaa/sqlc/internal/sql/ast"
+	"github.com/kyleconroy/sqlc/internal/metadata"
+	"github.com/kyleconroy/sqlc/internal/sql/ast"
 )
 
 func stringSlice(list nodes.List) []string {

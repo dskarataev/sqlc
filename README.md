@@ -1,5 +1,3 @@
-forked from [kyleconroy/sqlc](https://github.com/kyleconroy/sqlc) for adding prefix for generated files
-
 # sqlc: A SQL Compiler
 
 > And lo, the Great One looked down upon the people and proclaimed:
@@ -329,7 +327,7 @@ overrides:
 
 Each override document has the following keys:
 - `db_type`:
-  - The PostgreSQL type to override. Find the full list of supported types in [gen.go](https://github.com/vitthalaa/sqlc/blob/master/internal/dinosql/gen.go#L438).
+  - The PostgreSQL type to override. Find the full list of supported types in [gen.go](https://github.com/kyleconroy/sqlc/blob/master/internal/dinosql/gen.go#L438).
 - `go_type`:
   - A fully qualified name to a Go type to use in the generated code.
 - `nullable`:
@@ -391,7 +389,7 @@ rename:
 ### macOS
 
 ```
-brew install vitthalaa/sqlc/sqlc
+brew install kyleconroy/sqlc/sqlc
 ```
 
 ### Ubuntu
@@ -403,7 +401,7 @@ sudo snap install sqlc
 ### go get
 
 ```
-go get github.com/vitthalaa/sqlc/cmd/sqlc
+go get github.com/kyleconroy/sqlc/cmd/sqlc
 ```
 
 ### Docker
@@ -422,7 +420,7 @@ docker run --rm -v $(pwd):/src -w /src kjconroy/sqlc generate
 
 Binaries for a given release can be downloaded from the [stable channel on
 Equinox](https://dl.equinox.io/sqlc/sqlc/stable) or the latest [GitHub
-release](https://github.com/vitthalaa/sqlc/releases).
+release](https://github.com/kyleconroy/sqlc/releases).
 
 ### Tip Releases
 

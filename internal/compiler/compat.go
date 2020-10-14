@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vitthalaa/sqlc/internal/sql/ast"
-	"github.com/vitthalaa/sqlc/internal/sql/astutils"
+	"github.com/kyleconroy/sqlc/internal/sql/ast"
+	"github.com/kyleconroy/sqlc/internal/sql/astutils"
 )
 
 // This is mainly copy-pasted from internal/postgresql/parse.go

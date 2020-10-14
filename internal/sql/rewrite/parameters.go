@@ -3,11 +3,11 @@ package rewrite
 import (
 	"fmt"
 
-	"github.com/vitthalaa/sqlc/internal/config"
-	"github.com/vitthalaa/sqlc/internal/source"
-	"github.com/vitthalaa/sqlc/internal/sql/ast"
-	"github.com/vitthalaa/sqlc/internal/sql/astutils"
-	"github.com/vitthalaa/sqlc/internal/sql/named"
+	"github.com/kyleconroy/sqlc/internal/config"
+	"github.com/kyleconroy/sqlc/internal/source"
+	"github.com/kyleconroy/sqlc/internal/sql/ast"
+	"github.com/kyleconroy/sqlc/internal/sql/astutils"
+	"github.com/kyleconroy/sqlc/internal/sql/named"
 )
 
 // Given an AST node, return the string representation of names
