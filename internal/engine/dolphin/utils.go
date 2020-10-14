@@ -1,7 +1,7 @@
 package dolphin
 
 import (
-	pcast "github.com/vitthalaa/parser/ast"
+	pcast "github.com/pingcap/parser/ast"
 
 	"github.com/vitthalaa/sqlc/internal/sql/ast"
 )

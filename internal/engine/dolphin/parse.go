@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/vitthalaa/parser"
-	_ "github.com/vitthalaa/parser/test_driver"
+	"github.com/pingcap/parser"
+	_ "github.com/pingcap/parser/test_driver"
 
 	"github.com/vitthalaa/sqlc/internal/metadata"
 	"github.com/vitthalaa/sqlc/internal/sql/ast"
