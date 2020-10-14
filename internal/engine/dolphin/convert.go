@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	pcast "github.com/vitthalaa/parser/ast"
-	"github.com/vitthalaa/parser/opcode"
-	driver "github.com/vitthalaa/parser/test_driver"
-	"github.com/vitthalaa/parser/types"
+	pcast "github.com/pingcap/parser/ast"
+	"github.com/pingcap/parser/opcode"
+	driver "github.com/pingcap/parser/test_driver"
+	"github.com/pingcap/parser/types"
 
 	"github.com/kyleconroy/sqlc/internal/debug"
 	"github.com/kyleconroy/sqlc/internal/sql/ast"
