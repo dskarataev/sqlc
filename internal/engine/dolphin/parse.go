@@ -11,9 +11,9 @@ import (
 	"github.com/vitthalaa/parser"
 	_ "github.com/vitthalaa/parser/test_driver"
 
-	"github.com/kyleconroy/sqlc/internal/metadata"
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/sqlerr"
+	"github.com/vitthalaa/sqlc/internal/metadata"
+	"github.com/vitthalaa/sqlc/internal/sql/ast"
+	"github.com/vitthalaa/sqlc/internal/sql/sqlerr"
 )
 
 func NewParser() *Parser {

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kyleconroy/sqlc/internal/config"
+	"github.com/vitthalaa/sqlc/internal/config"
 )
 
 type importer struct {
