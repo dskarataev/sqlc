@@ -11,7 +11,7 @@ require (
 	github.com/jackc/pgx/v4 v4.9.0
 	github.com/jinzhu/inflection v1.0.0
 	github.com/lfittl/pg_query_go v1.0.0
-	github.com/lib/pq v1.4.0
+	github.com/lib/pq v1.8.0
 	github.com/pingcap/parser v0.0.0-20200623164729-3a18f1e5dceb
 	github.com/spf13/cobra v1.0.0
 	gopkg.in/yaml.v3 v3.0.0-20200121175148-a6ecf24a6d71
