@@ -366,6 +366,7 @@ type tmplCtx struct {
 	EmitPreparedQueries bool
 	EmitInterface       bool
 	EmitEmptySlices     bool
+	FilePrefix          string
 }
 
 func (t *tmplCtx) OutputQuery(sourceName string) bool {
@@ -413,6 +414,7 @@ func generate(settings config.CombinedSettings, enums []Enum, structs []Struct, 
 		GoQueries:           queries,
 		Enums:               enums,
 		Structs:             structs,
+		FilePrefix:          golang.FilePrefix,
 	}
 
 	output := map[string]string{}
@@ -434,6 +436,11 @@ func generate(settings config.CombinedSettings, enums []Enum, structs []Struct, 
 		if !strings.HasSuffix(name, ".go") {
 			name += ".go"
 		}
+
+		if len(tctx.FilePrefix) != 0 {
+			name = tctx.FilePrefix + name
+		}
+
 		output[name] = string(code)
 		return nil
 	}

@@ -119,6 +119,7 @@ type SQLGo struct {
 	EmitEmptySlices     bool              `json:"emit_empty_slices,omitempty" yaml:"emit_empty_slices"`
 	Package             string            `json:"package" yaml:"package"`
 	Out                 string            `json:"out" yaml:"out"`
+	FilePrefix          string            `json:"file_prefix" yaml:"file_prefix"`
 	Overrides           []Override        `json:"overrides,omitempty" yaml:"overrides"`
 	Rename              map[string]string `json:"rename,omitempty" yaml:"rename"`
 }
