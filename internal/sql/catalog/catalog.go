@@ -1,8 +1,8 @@
 package catalog
 
 import (
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/sqlerr"
+	"github.com/vitthalaa/sqlc/internal/sql/ast"
+	"github.com/vitthalaa/sqlc/internal/sql/sqlerr"
 )
 
 func stringSlice(list *ast.List) []string {

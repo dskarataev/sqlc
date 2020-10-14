@@ -8,11 +8,11 @@ import (
 
 	"vitess.io/vitess/go/vt/sqlparser"
 
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/metadata"
-	"github.com/kyleconroy/sqlc/internal/migrations"
-	"github.com/kyleconroy/sqlc/internal/multierr"
-	"github.com/kyleconroy/sqlc/internal/sql/sqlpath"
+	"github.com/vitthalaa/sqlc/internal/config"
+	"github.com/vitthalaa/sqlc/internal/metadata"
+	"github.com/vitthalaa/sqlc/internal/migrations"
+	"github.com/vitthalaa/sqlc/internal/multierr"
+	"github.com/vitthalaa/sqlc/internal/sql/sqlpath"
 )
 
 // Query holds the data for walking and validating mysql querys
