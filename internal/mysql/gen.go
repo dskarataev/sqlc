@@ -8,10 +8,10 @@ import (
 	"github.com/jinzhu/inflection"
 	"vitess.io/vitess/go/vt/sqlparser"
 
-	"github.com/kyleconroy/sqlc/internal/codegen"
-	"github.com/kyleconroy/sqlc/internal/codegen/golang"
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/core"
+	"github.com/vitthalaa/sqlc/internal/codegen"
+	"github.com/vitthalaa/sqlc/internal/codegen/golang"
+	"github.com/vitthalaa/sqlc/internal/config"
+	"github.com/vitthalaa/sqlc/internal/core"
 )
 
 type PackageGenerator struct {

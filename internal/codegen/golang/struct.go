@@ -3,8 +3,8 @@ package golang
 import (
 	"strings"
 
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/core"
+	"github.com/vitthalaa/sqlc/internal/config"
+	"github.com/vitthalaa/sqlc/internal/core"
 )
 
 type Struct struct {
