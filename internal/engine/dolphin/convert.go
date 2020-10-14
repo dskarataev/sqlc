@@ -9,8 +9,8 @@ import (
 	driver "github.com/vitthalaa/parser/test_driver"
 	"github.com/vitthalaa/parser/types"
 
-	"github.com/vitthalaa/sqlc/internal/debug"
-	"github.com/vitthalaa/sqlc/internal/sql/ast"
+	"github.com/kyleconroy/sqlc/internal/debug"
+	"github.com/kyleconroy/sqlc/internal/sql/ast"
 )
 
 type cc struct {

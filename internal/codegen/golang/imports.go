@@ -4,8 +4,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/vitthalaa/sqlc/internal/config"
-	"github.com/vitthalaa/sqlc/internal/metadata"
+	"github.com/kyleconroy/sqlc/internal/config"
+	"github.com/kyleconroy/sqlc/internal/metadata"
 )
 
 type fileImports struct {

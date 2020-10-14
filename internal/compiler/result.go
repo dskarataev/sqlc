@@ -1,7 +1,7 @@
 package compiler
 
 import (
-	"github.com/vitthalaa/sqlc/internal/sql/catalog"
+	"github.com/kyleconroy/sqlc/internal/sql/catalog"
 )
 
 type Result struct {
